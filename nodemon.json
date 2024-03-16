@@ -1,0 +1,7 @@
+{
+  "watch": ["src/**/*.ts", "**/*.html", "**/*.css"],
+  "ext": "ts",
+  "execMap": {
+    "js": "tsc src/server.ts --outDir ./dist && cp -r src/pages dist/ && node ./dist/server.js"
+  }
+}

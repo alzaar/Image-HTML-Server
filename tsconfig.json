@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "../../built/local/tsc.js",
+    "sourceMap": true,
+    "outDir": "./dist",
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.spec.ts"],
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+}
